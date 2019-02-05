@@ -1,0 +1,69 @@
+/*
+SELETOR {
+    PROPRIEDADE:VALOR;
+}
+*/
+
+body {
+    background-color: cyan;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: blue;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+ 
+
+}
+
+.negrito {
+    color: white;
+    font-weight: bold;
+}
+.formularioContato{
+    border-radius: 10px;
+    box-shadow: 1px  1px 10px 10px darkblue;
+}
+
+.formularioContato p, .formularioContato h3{
+    font-size: 18pt;
+
+}
+
+#ola{
+    color: blueviolet;
+}
+
+#ola::placeholder {
+    color: chartreuse;
+}
+
+textarea{
+    resize: none;
+}
+.negrito:hover{
+    color: lawngreen;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
